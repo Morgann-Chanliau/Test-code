@@ -1,0 +1,228 @@
+body {
+    margin:0;
+    background-color: rgb(236, 236, 236);
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:"Roboto", sans-serif;
+}
+
+body h1 {
+    margin:0;
+    width:100%;
+    text-align: center;
+    font-size:clamp(1.563rem, 1.375rem + 0.938vw, 2.5rem);
+    margin-bottom:20px;
+    color:rgb(53, 37, 80);
+}
+
+body h2 {
+    margin:0;
+    width:100%;
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 8px;
+    font-size:clamp(1.563rem, 1.4rem + 0.813vw, 2.375rem);
+    color:rgb(73, 73, 73);
+}
+
+body .text {
+    margin:0;
+    text-align: center;
+    width:80%;
+    font-weight: 300;
+    color:rgb(73, 73, 73);
+    font-size:clamp(1rem, 0.925rem + 0.375vw, 1.375rem);
+}
+
+@media screen and (min-width:600px) {
+    body .text {
+        width:50ch;
+    }
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    margin-top:50px;
+}
+
+@media screen and (min-width:1000px) {
+    .grid {
+        flex-direction: row;
+        margin:20px;
+        height:450px;
+    }
+}
+
+.grid .text {
+    text-align: left;
+    width:80%;
+    font-size: clamp(0.813rem, 0.75rem + 0.313vw, 1.125rem);
+    margin-top:15px;
+}
+
+.grid1 {
+    width:280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.supervisor {
+    width:95%;
+    height:200px;
+    position: relative;
+    background-color: rgb(246, 246, 246);
+    border-radius: 3%;
+    border-top: 5px solid rgb(0, 201, 181);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 6px 9px 7px rgba(0,0,0,0.07);
+}
+
+.supervisor svg {
+    position: absolute;
+    height:64px;
+    width:64px;
+    bottom: 7%;
+    right:7%;
+}
+
+.supervisor .h3 {
+    width:80%;
+    margin-top:20px;
+    font-size:clamp(1.188rem, 1.125rem + 0.313vw, 1.5rem);
+    font-weight:500;
+    color:rgb(53, 37, 80);
+}
+
+.grid2 {
+    width:280px;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.teambuilder {
+    width:95%;
+    height:200px;
+    position: relative;
+    background-color: rgb(246, 246, 246);
+    border-radius: 3%;
+    border-top: 5px solid rgb(203, 40, 40);
+    box-shadow: 0px 6px 9px 7px rgba(0,0,0,0.07);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:50px;
+}
+
+@media screen and (min-width:1000px) {
+    .teambuilder {
+        margin:0;
+    }
+}
+
+.teambuilder svg {
+    position: absolute;
+    height:64px;
+    width:64px;
+    bottom: 7%;
+    right:7%;
+}
+
+.teambuilder .h3 {
+    width:80%;
+    margin-top:20px;
+    font-size: clamp(1.188rem, 1.125rem + 0.313vw, 1.5rem);;
+    font-weight:500;
+    color:rgb(53, 37, 80);
+}
+
+.karma {
+    width:95%;
+    height:200px;
+    position: relative;
+    background-color: rgb(246, 246, 246);
+    border-radius: 3%;
+    border-top: 5px solid rgb(233, 230, 31);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 6px 9px 7px rgba(0,0,0,0.07);
+    margin-top:50px;
+}
+
+@media screen and (min-width:1000px) {
+    .karma {
+        margin:0;
+    }
+}
+
+.karma svg {
+    position: absolute;
+    height:64px;
+    width:64px;
+    bottom: 7%;
+    right:7%;
+}
+
+.karma .h3 {
+    width:80%;
+    margin-top:20px;
+    font-size:clamp(1.188rem, 1.125rem + 0.313vw, 1.5rem);
+    font-weight:500;
+    color:rgb(53, 37, 80);
+}
+
+.grid3 {
+    width:280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    width:95%;
+    height:200px;
+    position: relative;
+    background-color: rgb(246, 246, 246);
+    border-radius: 3%;
+    border-top: 5px solid rgb(55, 95, 197);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 6px 9px 7px rgba(0,0,0,0.07);
+    margin-top:50px;
+}
+
+@media screen and (min-width:1000px) {
+    .calculator {
+        margin:0;
+    }
+}
+
+.calculator svg {
+    position: absolute;
+    height:64px;
+    width:64px;
+    bottom: 7%;
+    right:7%;
+}
+
+.calculator .h3 {
+    width:80%;
+    margin-top:20px;
+    font-size:clamp(1.188rem, 1.125rem + 0.313vw, 1.5rem);
+    font-weight:500;
+    color:rgb(53, 37, 80);
+}
